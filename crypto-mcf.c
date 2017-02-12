@@ -6,10 +6,6 @@
 #include <stdint.h>
 #include <math.h>
 
-#ifndef S_SPLINT_S /* Including this here triggers a known bug in splint */
-#include <unistd.h>
-#endif
-
 #include "libscrypt.h"
 
 /* ilog2 for powers of two */
